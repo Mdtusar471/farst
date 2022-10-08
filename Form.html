@@ -1,0 +1,88 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>form</title>
+  <link rel="stylesheet" href="Form.css">
+  <link rel="shortcut icon" href="pc.png">
+</head>
+<body>
+  <div>
+  <h2>pc471 </h2>
+  </div>
+  <br>
+  <form action="form.php">
+    <label for="frst-name">frst name</label>
+    <input type="text"name="frst_name"id="frst-name"required="">
+    <br>
+    <br>
+    <label for="last-name">last name</label>
+    <input type="text"name="lest_name"id="last-name"required="">
+    <br>
+    <br>
+    <label for="password">password</label>
+    <input type="password"name="password"id="password"required="">
+    
+    <h4>gender</h4>
+    <input type="radio"name="gender"value="male"id="male"required=""><label for="male">male</label>
+    <br>
+    <input type="radio"name="gender"valu="fimel"id="fimel"required=""><label for="fimel">fimel</label>
+    <br>
+    <input type="radio"name="gender"valu="Custom"id="Custom"required=""><label for="Custom">Custom</label>
+    <h4>Qualification </h4>
+    <input type="checkbox"name="Qualification"valu="ms"id="ms"required=""><label for="ms">MS</label>
+    <br>
+    <input type="checkbox"name="Qualification"valu="ba"id="ba"required=""><label for="ba">Ba</label>
+    <br>
+    <input type="checkbox"name="Qualification"valu="ma"id="ma"required=""><label for="ma">Ma</label>
+    <br>
+    <br>
+    
+    <label for="dey">dey</label>
+    <select name="dey"id="dey"required>
+    <option value="">plies select</option>
+    <option value="01">01</option>
+    <option value="02">02</option>
+    <option value="03">03</option>
+    <option value="04">04</option>
+    <option value="05">05</option>
+    <option value="06">06</option>
+    <option value="07">07</option>
+    </select>
+    <br>
+    <br>
+    <label for="yer">yar</label>
+    <select name="yer" id="yer"required>
+    <option value="">sileckt</option>
+    <optiin value="January">January</optiin>
+    <option value="February">February</option>
+    <option value="March">march</option>
+    <option value="April">April</option>
+    <option value="may">may</option>
+    <option value="jun">jun</option>
+    <option value="July">july</option>
+    <option value="August">August</option>
+    <option value="September">September </option>
+    <option value="October">October</option>
+    <option value="sep">sep</option>
+    <option value="nob">nob</option>
+    <option value="dec">dec</option>
+    </select>
+    <label for="month">month</label>
+    <select name="month" id="month"required>
+    <option value="">month</option>
+    <option value="2022">2022</option>
+    </select>
+    <br>
+    <br>
+    <label for="cement">cement</label><br>
+    <textarea name="cement" id="cement" cols="30" rows="5"required=""></textarea>
+    <br>
+    <br>
+<input type="submit"name="submit"value="sing up">
+    <input type="reset"name="reset"value="reset">
+  </form>
+  
+</body>
+</html>

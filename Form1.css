@@ -1,0 +1,94 @@
+body{
+  background-color:#9797FF;
+}
+.h1{
+  background-color:#4747AF;
+  color:#ffffff;
+  border-radius: 30px;
+}
+.h2{
+  margin-left: 35%;
+}
+.img1{
+  background-image: url("images.jpeg");
+  width: 80px;
+  height: 80;
+  margin: auto;
+  background-size: cover;
+}
+img{
+  height: 10px;
+}
+p{
+  margin:auto;
+  color:;
+  width: 65%;
+  font-size: 16px;
+}
+.p1{
+  margin:auto;
+  width: 30%;
+}
+input{
+  background-color:#DBDBDB;
+  margin:auto;
+  border-color: red;
+  border-radius: 30px;
+}
+form{
+  margin:auto;
+  width: 60%;
+}
+input{
+  background-color:#9797FF;
+ padding: 4px;
+ width: 220px;
+}
+.input-12{
+  background-color:#7979FF;
+  color:red;
+  width: 150px;
+  margin:auto;
+}
+.forgot{
+  width: 130px;
+}
+.create-action{
+  width: 110px;
+}
+.not-now{
+  width: 75px;
+}
+.help-center{
+  width: 90px;
+}
+tabel{
+}
+td{
+width: 100%;
+  border: px solid ;
+  color:red;
+  border-radius:10px;
+  width: 10%;
+}
+p{
+  margin:auto;
+}
+.indunisia{
+  width: 50px;
+}
+.indunisia-{
+  width: 90px;
+}
+.indunisia2{
+  width: 80px;
+}
+.indunisia1{
+  width: 90px;
+}
+.indunisia3{
+  width: 60px;
+}
+.indunisia0{
+  width: 40px;
+}
